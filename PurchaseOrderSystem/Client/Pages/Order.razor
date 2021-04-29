@@ -1,0 +1,67 @@
+﻿@page "/addorder"
+@using PurchaseOrderSystem.Shared
+@inject HttpClient Http
+
+<h1>New random order</h1>
+
+<p>// I should add here some form... </p>  
+
+<button class="btn btn-primary" @onclick="AddOrder">Add random product:) </button>
+ ID:
+<input value="@OrderId" />
+
+@code {
+
+    public string OrderId
+    {
+        get => _id;
+        set
+        {
+            _id = value;
+            this.StateHasChanged();
+        }
+    }
+
+    private string _id;
+
+
+    private async Task AddOrder()
+    {
+        PurchaseOrderSystem.Shared.Order order = PrepareRandomOrder();
+
+        var response = await Http.PostAsJsonAsync("Orders", order);
+        OrderId = await response.Content.ReadAsStringAsync();
+    }
+
+    private PurchaseOrderSystem.Shared.Order PrepareRandomOrder()
+    {
+        var order = new PurchaseOrderSystem.Shared.Order();
+        order.OrderStatus = OrderStatus.New;
+        var random = new Random();
+        var countries = new List<string> { "Poland", "Nigeria", "Germany", "Denmark" };
+        var currencies = new List<string> { "EUR", "PLN", "USD" };
+        var prices = new List<decimal> { 1200, 500, 2000, -10 };
+        order.Address = new Address()
+        {
+            City = "Random city",
+            Street = "Random Street",
+            ZipCode = "Random zip",
+            Country = countries[random.Next(countries.Count)]
+        };
+        order.Currency = currencies[random.Next(currencies.Count)];
+        order.Amount = prices[random.Next(prices.Count)];
+        order.Email = "Random email";
+        order.Products = new List<Product>()
+        {
+            new Product()
+            {
+                Name = "Product name",
+                Quantity = 2
+            }
+        };
+        order.CreateDate = DateTime.Now;
+
+        return order;
+    }
+
+}

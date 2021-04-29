@@ -1,0 +1,9 @@
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\bin\Debug\netstandard2.1\PurchaseOrderSystem.Shared.deps.json
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\bin\Debug\netstandard2.1\PurchaseOrderSystem.Shared.dll
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\bin\Debug\netstandard2.1\PurchaseOrderSystem.Shared.pdb
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.AssemblyInfoInputs.cache
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.AssemblyInfo.cs
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.dll
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.pdb
+C:\Projects\PurchaseSystem_blazor\PurchaseOrderSystem\PurchaseOrderSystem\Shared\obj\Debug\netstandard2.1\PurchaseOrderSystem.Shared.csprojAssemblyReference.cache

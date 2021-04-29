@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jcZuvzVx6SIa1QtO24CmEXxGydnZEHSDlpJDcqf5HZBWswOHSme4IW+V3cGMPl5oWaFLg8NxR133VQF2lQAj2A==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\PurchaseSystem_blazor\\PurchaseOrderSystem\\PurchaseOrderSystem\\Shared\\PurchaseOrderSystem.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Z6KNO\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
